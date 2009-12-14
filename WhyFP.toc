@@ -1,10 +1,10 @@
 \contentsline {section}{\numberline {1}简介}{3}{section.1}
-\contentsline {section}{\numberline {2}与结构程序设计的对比}{4}{section.2}
+\contentsline {section}{\numberline {2}与结构程序设计的对比}{3}{section.2}
 \contentsline {section}{\numberline {3}将函数粘合在一起}{4}{section.3}
-\contentsline {section}{\numberline {4}将程序粘合在一起}{10}{section.4}
+\contentsline {section}{\numberline {4}将程序粘合在一起}{9}{section.4}
 \contentsline {subsection}{\numberline {4.1}Newton-Raphson平方根}{10}{subsection.4.1}
 \contentsline {subsection}{\numberline {4.2}数值微分}{12}{subsection.4.2}
 \contentsline {subsection}{\numberline {4.3}数值积分}{14}{subsection.4.3}
 \contentsline {section}{\numberline {5}一个人工智能的例子}{16}{section.5}
 \contentsline {section}{\numberline {6}结论}{22}{section.6}
-\contentsline {section}{\numberline {7}鸣谢}{23}{section.7}
+\contentsline {section}{\numberline {7}鸣谢}{22}{section.7}
