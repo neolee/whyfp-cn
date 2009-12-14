@@ -7,4 +7,4 @@
 \contentsline {subsection}{\numberline {4.3}数值积分}{14}{subsection.4.3}
 \contentsline {section}{\numberline {5}一个人工智能的例子}{16}{section.5}
 \contentsline {section}{\numberline {6}结论}{22}{section.6}
-\contentsline {section}{\numberline {7}鸣谢}{22}{section.7}
+\contentsline {section}{\numberline {7}鸣谢}{23}{section.7}
