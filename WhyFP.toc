@@ -8,3 +8,4 @@
 \contentsline {section}{\numberline {5}一个人工智能的例子}{16}{section.5}
 \contentsline {section}{\numberline {6}结论}{22}{section.6}
 \contentsline {section}{\numberline {7}鸣谢}{23}{section.7}
+\contentsline {section}{参考资料}{24}{section*.3}

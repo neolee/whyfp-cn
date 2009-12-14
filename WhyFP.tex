@@ -25,6 +25,29 @@ BoldFont={Hei}] %
 \XeTeXlinebreaklocale "zh" 
 \XeTeXlinebreakskip = 0pt plus 1pt 
 
+\usepackage[nottoc,notlof,notlot]{tocbibind} % Put the bibliography in the ToC
+
+\hypersetup{
+    bookmarks=true,         % show bookmarks bar?
+    unicode=false,          % non-Latin characters in Acrobat’s bookmarks
+    pdftoolbar=true,        % show Acrobat’s toolbar?
+    pdfmenubar=true,        % show Acrobat’s menu?
+    pdffitwindow=false,     % window fit to page when opened
+    pdfstartview={FitH},    % fits the width of the page to the window
+    pdftitle={WhyFP},       % title
+    pdfauthor={John Hughes},% author
+    pdfsubject={FP},        % subject of the document
+    pdfcreator={Neo Lee},   % creator of the document
+    pdfproducer={Neo Lee},  % producer of the document
+    pdfkeywords={fp},       % list of keywords
+    pdfnewwindow=true,      % links in new window
+    colorlinks=true,        % false: boxed links; true: colored links
+    linkcolor=blue,         % color of internal links
+    citecolor=blue,         % color of links to bibliography
+    filecolor=magenta,      % color of file links
+    urlcolor=cyan           % color of external links
+}
+
 \renewcommand\contentsname{目录}
 \renewcommand\listfigurename{图表目录}
 \renewcommand\listtablename{表格目录}
