@@ -25,6 +25,8 @@ BoldFont={Hei}] %
 \XeTeXlinebreaklocale "zh" 
 \XeTeXlinebreakskip = 0pt plus 1pt 
 
+%\setlength\parindent{2.5em}
+
 \usepackage[nottoc,notlof,notlot]{tocbibind} % Put the bibliography in the ToC
 
 \hypersetup{
@@ -125,7 +127,7 @@ goto 语句的不存在及其效应与模块化没有多少关系，它仅对``�
    sum nil = 0
 \end{verbatim}
 
-因为一个cons的和是其第一个元素与另一个表之和相加。故有：
+因为一个 cons 的和是其第一个元素与另一个表之和相加。故有：
 
 \begin{verbatim}
    sum (cons num list) = num + sum list
@@ -210,7 +212,7 @@ goto 语句的不存在及其效应与模块化没有多少关系，它仅对``�
    append [1,2] [3,4] = redeuce cons [3,4] [1,2]
                       = (reduece cons [3,4]) (cons 1 (cons 2 nil))
                       = cons 1 (cons 2 [3,4])
-   (cons => cons，nil => [3，4])
+   (cons => cons, nil => [3,4])
                       = [1,2,3,4]
 \end{verbatim}
 
@@ -243,7 +245,7 @@ goto 语句的不存在及其效应与模块化没有多少关系，它仅对``�
    (f . g) h = f (g h)
 \end{verbatim}
 
-将fandcons作用于一些参数，我们可以看出fandcons的定义是正确的：
+将 fandcons 作用于一些参数，我们可以看出 fandcons 的定义是正确的：
 
 \begin{verbatim}
    fandcons f el = (cons . f) el
