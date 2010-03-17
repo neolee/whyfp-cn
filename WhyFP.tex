@@ -163,7 +163,7 @@ goto 语句的不存在及其效应与模块化没有多少关系，它仅对``�
    (reduce f x) (cons a l) = f a ((reduce f x) l)
 \end{verbatim}
 
-这里我们使用了括号 (reduece f x) 以表示其代表 sum。通常括号可以省略，所以 ((reduce f x) l) 可写作 (reduce f x l)。像 reduce 这样的三元函数只作用于两个参数时可视为一元函数。一般地，一个n元函数作用于 m(<n) 个参数可视为 n-m 元函数。今后我们将沿用此习惯。
+这里我们使用了括号 (reduce f x) 以表示其代表 sum。通常括号可以省略，所以 ((reduce f x) l) 可写作 (reduce f x l)。像 reduce 这样的三元函数只作用于两个参数时可视为一元函数。一般地，一个n元函数作用于 m(<n) 个参数可视为 n-m 元函数。今后我们将沿用此习惯。
 
 将 sum 如此模块化后，我们可以重用一些函数。其中最有趣的部分是 reduce，可用于编写求表中元素积的函数：
 
