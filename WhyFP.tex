@@ -14,13 +14,14 @@
 \DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
 
 \usepackage{fontspec}
-\setromanfont[Mapping=tex-text，%
-Ligatures={Required,Common}，%
-ItalicFont={Times Italic}，%
-BoldFont={Hei}] %
-{Kai}
 
-\setmonofont[Scale=0.8]{Monaco} 
+\setmainfont[BoldFont        = {Hei},
+             ItalicFont      = {Kai},
+             BoldItalicFont  = {Hei},
+             Mapping         = tex-text,
+             Ligatures       = {Required,Common}]{STKaiti}
+
+\setmonofont[Scale=0.8]{Menlo} 
 
 \XeTeXlinebreaklocale "zh" 
 \XeTeXlinebreakskip = 0pt plus 1pt 
